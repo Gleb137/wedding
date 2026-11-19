@@ -1,0 +1,211 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #FDFBF7, #F8E7CE);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #E6E6FA, #D3D3D3);
+    padding: 2rem 0;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 100%);
+}
+
+header .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+header .invite-button {
+    background: #7B4159;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header .invite-button:hover {
+    background: #5D2C44;
+}
+
+.story-section {
+    background: linear-gradient(135deg, #F3E5AB, #F9E79F);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.story-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.story-block {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.story-block p {
+    margin: 0;
+}
+
+.timeline-section {
+    background: linear-gradient(135deg, #F3E5AB, #F9E79F);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.timeline-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline li {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.timeline-content h3 {
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+}
+
+.timeline-content p {
+    margin: 0;
+}
+
+.rsvp-section {
+    background: linear-gradient(135deg, #F3E5AB, #F9E79F);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.rsvp-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.form-group input, .form-group select {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border-color: #7B4159;
+    outline: none;
+}
+
+.rsvp-button {
+    background: #7B4159;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.rsvp-button:hover {
+    background: #5D2C44;
+}
+
+footer {
+    background: linear-gradient(135deg, #E6E6FA, #D3D3D3);
+    padding: 1rem 0;
+    text-align: center;
+    clip-path: polygon(0 100%, 100% 100%, 100% 50%, 50% 0, 0 0);
+}
+
+footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+    header .header-content h1 {
+        font-size: 2rem;
+    }
+
+    header .header-content p {
+        font-size: 1.2rem;
+    }
+
+    header .invite-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .story-block, .timeline-content {
+        max-width: 100%;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .form-group input, .form-group select {
+        font-size: 1rem;
+    }
+
+    .rsvp-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
